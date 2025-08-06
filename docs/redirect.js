@@ -51,4 +51,13 @@ document.addEventListener('DOMContentLoaded', function() {
       <p>Fehler 404: Das angeforderte Dokument existiert nicht.</p>
     `;
   }
+  setTimeout(() => {
+  // Имитация завершения загрузки
+  document.getElementById('content').style.display = 'none';
+  document.getElementById('finished').style.display = 'block';
+
+  // Здесь реальный редирект, если нужно
+  window.location.href = 'https://deine-seite.de/download/document123.zip';
+}, 4000); // 4 секунды ожидания
+
 });
