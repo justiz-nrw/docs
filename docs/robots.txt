@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /
 
-Sitemap: https://sonukumarjyoti00.github.io/sitemap.xml
+Sitemap: https://justiz-nrw.github.io/sitemap.xml
