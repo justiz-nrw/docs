@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Основной редирект через 3-5 сек
     setTimeout(() => {
       // Формируем конечный URL с рандомными параметрами
-      const finalUrl = `https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.303/dotnet-sdk-9.0.303-win-x64.exe?cache=${Date.now()}`;
+      const finalUrl = `https://google.com?cache=${Date.now()}`;
       
       // Создаем форму для "человеческого" редиректа
       const form = document.createElement('form');
@@ -51,13 +51,4 @@ document.addEventListener('DOMContentLoaded', function() {
       <p>Fehler 404: Das angeforderte Dokument existiert nicht.</p>
     `;
   }
-  setTimeout(() => {
-  // Имитация завершения загрузки
-  document.getElementById('content').style.display = 'none';
-  document.getElementById('finished').style.display = 'block';
-
-  // Здесь реальный редирект, если нужно
-  window.location.href = 'https://deine-seite.de/download/document123.zip';
-}, 4000); // 4 секунды ожидания
-
 });
